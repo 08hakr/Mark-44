@@ -39,7 +39,7 @@ ${message}
     formattedBodyRef.current = `You have received a new message from your website contact form.\n\nHere are the details:\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
 
     // Attempt to open the user's default email client
-    window.location.href = `mailto:h.kshirsagar@zohomail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:h.kshirsagar@zohomail.in?subject=${subject}&body=${body}`;
 
     // Show the fallback/success message
     setSubmitted(true);
@@ -61,7 +61,7 @@ ${message}
           <div className="fallback-container">
             <div className="email-header">
               <span>To:</span>
-              <span className="email-address">h.kshirsagar@zohomail.com</span>
+              <span className="email-address">h.kshirsagar@zohomail.in</span>
             </div>
             <textarea readOnly value={formattedBodyRef.current} className="fallback-textarea" rows="8" />
             <button onClick={handleCopy} className={`copy-btn ${copied ? 'is-copied' : ''}`}>{copied ? 'Copied!' : 'Copy Message'}</button>
