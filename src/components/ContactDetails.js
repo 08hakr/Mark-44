@@ -7,7 +7,7 @@ const ContactDetails = () => {
       </div>
       <div className="detail-item">
         <h4>Email Us</h4>
-        <p><a href="mailto:h.kshirsagar@zohomail.com">h.kshirsagar@zohomail.com</a></p>
+        <p><a href="mailto:h.kshirsagar@zohomail.in">h.kshirsagar@zohomail.in</a></p>
       </div>
       <div className="detail-item">
         <h4>Call Us</h4>
