@@ -42,7 +42,7 @@ const JobListing = () => {
               <span>{job.location}</span> | <span>{job.type}</span>
             </div>
             <p>{job.description}</p>
-            <a href={`mailto:h.kshirsagar@zohomail.com?subject=Application for ${job.title}`} className="apply-btn">Apply Now</a>
+            <a href={`mailto:h.kshirsagar@zohomail.in?subject=Application for ${job.title}`} className="apply-btn">Apply Now</a>
           </div>
         ))}
       </div>
