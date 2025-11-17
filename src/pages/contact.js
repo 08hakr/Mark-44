@@ -38,7 +38,7 @@ const ContactPage = () => {
           <div className="links-column">
             <h4>Get in Touch</h4>
             <ul>
-              <li><a href="mailto:h.kshirsagar@zohomail.com">h.kshirsagar@zohomail.com</a></li>
+              <li><a href="mailto:h.kshirsagar@zohomail.in">h.kshirsagar@zohomail.in</a></li>
               <li><a href="tel:+15551234567">+91 75586 72035</a></li>
               <li>Malhar Hostel, Hingane Home Colony<br />Karve Nagar, Pune, MH, India 411052</li>
             </ul>
